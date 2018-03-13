@@ -1,0 +1,120 @@
+// Screen-specific styling
+@media screen
+
+  .bespoke-parent
+    text-size-adjust: auto
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    overflow: hidden
+
+  .bespoke-scale-parent
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    pointer-events: none
+
+    .bespoke-active
+      pointer-events: auto
+
+  .bespoke-slide
+    width: 640px
+    height: 480px
+    position: absolute
+    top: 50%
+    left: 50%
+    margin-left: -(@width / 2)
+    margin-top: -(@height / 2)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 10px
+    box-sizing: border-box
+    box-shadow: 0 0 5px #222;
+
+    .notes
+      display: none
+
+  .bespoke-inactive
+    opacity: 0
+    pointer-events: none
+
+  .bespoke-bullet-inactive
+    opacity: 0
+    pointer-events: none
+
+  .bespoke-backdrop
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: -1
+    opacity: 0
+
+  .bespoke-backdrop-active
+    opacity: 1
+
+  .bespoke-progress-parent
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    height: .3vw
+
+  .bespoke-progress-bar
+    position: absolute
+    height: 100%
+    background: #368429
+    transition: width .6s ease
+
+  .emphatic
+    background: #368429
+
+  .emphatic-text
+    color: #ffffff
+
+  body > footer
+    position: absolute
+    bottom: 0
+    right: 0
+    margin: 0 0.5rem
+    z-index: 1
+    transform-origin: bottom right
+
+    h1
+      color: #666
+      font-size: 70%
+
+      small
+        color: #aaa
+        display: block
+        font-size: 60%
+
+  .print-icon
+    position: absolute
+    right: 5px
+    bottom: 5px
+    width: 34px
+    height: 34px
+    padding: 5px;
+    display: block;
+    z-index: 1000
+
+    svg
+      width: 24px
+      height: 24px
+
+    path
+      fill: #6f6f6f
+
+    &:hover
+      background-color: #6f6f6f
+
+      path
+        fill: #f0f0f0

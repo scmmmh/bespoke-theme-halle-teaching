@@ -1,0 +1,56 @@
+// Print styling
+@media print
+
+  .bespoke-parent
+    text-size-adjust: auto
+
+  .bespoke-slide
+    position: relative
+    width: 640px
+    height: 480px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 10px
+    box-sizing: border-box
+    box-shadow: 0 0 5px #222
+    margin: 1rem
+    zoom: 1 !important
+
+    .notes
+      display: block
+      position: absolute
+      top: 480px
+      left: 0
+      padding-top: 1rem
+
+    &:nth-child(n)
+      page-break-after: always
+
+  .bespoke-inactive
+    opacity: 1
+
+  .bespoke-bullet-inactive
+    opacity: 1
+
+  .bespoke-backdrop-active
+    opacity: 1
+
+  .bespoke-progress-parent
+    display: none
+
+  .bespoke-progress-bar
+    display: none
+
+  .emphatic, *[data-bespoke-backdrop=emphatic]
+    background: #368429
+
+  .emphatic-text
+    color: #ffffff
+
+  body > footer
+    display: none
+
+  .print-icon
+    display: none
