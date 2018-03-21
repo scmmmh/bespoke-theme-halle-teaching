@@ -1,6 +1,6 @@
 {
   "name": "bespoke-theme-halle-teaching",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Theme for teaching at the Martin-Luther-University Halle-Wittenberg",
   "license": "CC-BY-SA-4.0",
   "homepage": "https://github.com/scmmmh/bespoke-theme-halle-teaching",
@@ -15,6 +15,7 @@
     "url": "git://github.com/scmmmh/bespoke-theme-halle-teaching.git"
   },
   "keywords": [
+    "bespoke-plugin",
     "bespoke-theme"
   ],
   "scripts": {
@@ -62,9 +63,5 @@
     {
       "type": "MIT"
     }
-  ],
-  "keywords": [
-    "bespoke-plugin",
-    "bespoke-theme"
   ]
 }
