@@ -6,6 +6,10 @@ This repository contains the bespoke theme for teaching at MLU Halle-Wittenberg.
 
 ### 1.1.1
 
+* **NEW**: Added a #source CSS rule for styling the source download
+
+### 1.1.1
+
 * **NEW**: Added a .page CSS class for styling static page-like files
 
 ### 1.1.0
