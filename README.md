@@ -4,6 +4,10 @@ This repository contains the bespoke theme for teaching at MLU Halle-Wittenberg.
 
 ## Changes
 
+### 1.1.1
+
+* **NEW**: Added a .page CSS class for styling static page-like files
+
 ### 1.1.0
 
 * **REMOVED**: Remove body footer styling and positioning
