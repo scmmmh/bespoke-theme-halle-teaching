@@ -4,6 +4,10 @@ This repository contains the bespoke theme for teaching at MLU Halle-Wittenberg.
 
 ## Changes
 
+### 1.0.3
+
+* Packaging fix
+
 ### 1.0.2
 
 * Packaging fix
