@@ -1,6 +1,6 @@
 # Theme Halle Teaching
 
-** THIS PROJECT IS NO LONGER MAINTAINED**
+**THIS PROJECT IS NO LONGER MAINTAINED**
 
 This repository contains the bespoke theme for teaching at MLU Halle-Wittenberg.
 
